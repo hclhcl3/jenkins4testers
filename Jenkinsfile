@@ -20,7 +20,7 @@ pipeline {
       post {
         always {
           cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'log', sortingMethod: 'ALPHABETICAL'
-          {
+        }
       }
     }
   }
